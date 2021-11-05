@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.home {
+  background-image:url('/src/assets/bghome.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  bottom: 0px;
+  top: 0%;
+  width: 100%;
+  min-height: 700vh;
+  background-color: aqua;
+}
+
+@media screen and (max-width: 768px){
+.home{
+  background-size: 100% 100%;
+  min-height: 0vh;
+ 
+
+}
+}
+
+  
+
+
+@font-face {
+  font-family: NexaLight;
+  src: url('/src/assets/Fonts/nexalight.otf') format('opentype')
+}
+
+@font-face {
+  font-family: NexaBold;
+  font-weight: bold;
+  src: url('/src/assets/Fonts/nexabold.otf') format('opentype')
+}
+
+* {
+  font-family: 'NexaLight';
+  
+}

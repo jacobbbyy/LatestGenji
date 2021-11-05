@@ -1,0 +1,62 @@
+.gachapon {
+    background-image:url('/src/assets/bggachapon.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    top: 0%;
+    width: 100%;
+    min-height: 250vh;
+    display: grid;
+  }
+
+.gachapon-content {
+    background-color: transparent;
+      font-size: 10px;
+      position: absolute;
+      top: 200px;
+      right: 800px;
+      left: 90px;
+      display: grid;
+      grid-template-columns: 800px;
+}
+
+.gachapon-content>p1{
+    padding-top: 200px;
+    padding-left: 600px;
+    font-size: 90px;
+    padding-right: 20px;
+    color: rgb(252, 252, 134);
+    font-family: 'NexaBold';
+  }
+  .gachapon-content>p2{
+    padding-top: 20px;
+    padding-left: 650px;
+    font-size: 90px;
+    padding-right: 20px;
+    color: rgb(252, 252, 134);
+    font-family: 'NexaBold';
+  }
+  
+  .gachapon-content>h1{
+    color: rgb(252, 252, 134);
+    font-size: 30px;
+    font-family: 'NexaLight';
+  }
+
+.discord-join {
+    margin-top: 1000px;
+    top: 900px;
+    width: 100%;
+    position: absolute;
+}
+
+.gacha-footer {
+    top: 1900px;
+    width: 100%;
+    position: absolute;
+    
+}
